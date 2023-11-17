@@ -1,0 +1,11 @@
+CREATE TABLE [dbo].[Table1]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Nome] VARCHAR(60) NOT NULL, 
+    [SobreNome ] VARCHAR(50) NOT NULL, 
+    [Data Nascimento] DATE NOT NULL, 
+    [UF] VARCHAR(50) NOT NULL, 
+    [Produto] VARCHAR(50) NOT NULL, 
+    [Data de Venda] DATE NOT NULL, 
+    [Quatidade Vendida] DECIMAL(18, 2) NOT NULL, 
+    [Preço do Produto] REAL NOT NULL
